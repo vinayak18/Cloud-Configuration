@@ -1,0 +1,37 @@
+spring:
+  data:
+    mongodb:
+      database: RestaurantApp
+      uri: mongodb+srv://root:root@tweetapp.v00ihzx.mongodb.net/RestaurantApp
+            
+server:
+  port: 8085
+  
+eureka:
+   client:
+      serviceUrl:
+         defaultZone: http://localhost:8761/eureka
+      instance:
+        preferIpAddress: true
+  
+twilio:
+  sid: AC85a9e14947582dce6def1b327eac59b2
+  authToken: 872fa9e91be48202558d348b552b5a40
+  origin: +13613093534
+  
+smtp:
+  email: tweetapp.noreply@gmail.com
+  password: zowoigmsaigflkkc
+  
+user:
+  auth:
+    URL: http://localhost:8083
+
+management:
+  tracing:
+    sampling:
+      probability: 1.0
+      
+logging:
+  pattern:
+    level: '%5p [${spring.application.name:},%X{traceId:-},%X{spanId:-}]'
