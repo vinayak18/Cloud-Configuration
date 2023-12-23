@@ -39,7 +39,7 @@ razorpay:
 
 review:
   service:
-    URL: http://productservice:8082 
+    URL: http://localhost:8082 
   
 #logging:
 #  file:
