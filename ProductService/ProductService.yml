@@ -19,7 +19,7 @@ eureka:
 
 user:
   auth:
-    URL: http://localhost:8083
+    URL: https://ra-us-prod.up.railway.app/
     
 management:
   tracing:
