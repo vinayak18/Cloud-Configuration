@@ -11,7 +11,7 @@ spring:
 eureka:
    client:
       serviceUrl:
-         defaultZone: https://ra-es-prod.up.railway.app/eureka
+         defaultZone: https://eurekaserver-1.onrender.com/eureka
       instance:
         preferIpAddress: true
         
