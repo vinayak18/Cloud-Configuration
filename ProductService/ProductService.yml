@@ -19,7 +19,7 @@ eureka:
 
 user:
   auth:
-    URL: https://ra-us-prod.up.railway.app/
+    URL: https://raus-prod.up.railway.app/
     
 management:
   tracing:
