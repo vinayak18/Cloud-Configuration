@@ -4,7 +4,7 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: https://raes-prod.up.railway.app/eureka
+      defaultZone: https://ra-es-prod.up.railway.app/eureka
   instance:
     preferIpAddress: true  
 
