@@ -39,7 +39,7 @@ razorpay:
 
 review:
   service:
-    URL: https://raps-prod.up.railway.app/ 
+    URL: https://ra-ps-prod.up.railway.app/ 
   
 #logging:
 #  file:
