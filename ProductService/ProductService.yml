@@ -6,6 +6,21 @@ spring:
     mongodb:
       database: RestaurantApp
       uri: mongodb+srv://root:root@tweetapp.v00ihzx.mongodb.net/RestaurantApp
+    redis:
+      host: oregon-redis.render.com
+      username: red-co97k4ljm4es73aqhem0
+      password: lYTFYtUV7kvJ8U92sxCBHcqdWEtBXkhE
+      port: 6379
+      timeout: 10000
+      sessiondata:
+        ttl: 6000
+      url: rediss://red-co97k4ljm4es73aqhem0:lYTFYtUV7kvJ8U92sxCBHcqdWEtBXkhE@oregon-redis.render.com:6379
+#  cache:
+#    type: redis
+#    host: oregon-redis.render.com
+#    port: 38615
+#    redis:
+#      time-to-live: 600000
 #  sleuth:
 #    sampler:
 #      probability: 1.0 #Spring-Boot-2
