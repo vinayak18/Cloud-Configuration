@@ -16,3 +16,9 @@ management:
 logging:
   pattern:
     level: '%5p [${spring.application.name:},%X{traceId:-},%X{spanId:-}]'
+
+authentication:
+  enabled: true
+
+jwt:
+  secret: 'amma ki kadai' #secret key for cloud kitchen app
