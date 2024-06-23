@@ -31,10 +31,6 @@ eureka:
          defaultZone: https://ra-es-prod.up.railway.app/eureka
       instance:
         preferIpAddress: true
-
-user:
-  auth:
-    URL: https://ra-us-prod.up.railway.app/
     
 management:
   tracing:
