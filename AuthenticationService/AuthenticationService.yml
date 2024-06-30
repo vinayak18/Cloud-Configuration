@@ -35,4 +35,4 @@ logging:
     level: '%5p [${spring.application.name:},%X{traceId:-},%X{spanId:-}]'
 
 jwt:
-  secret: 'amma ki kadai' #secret key for cloud kitchen app
+  secret: 'amma ki kadai - secret key for cloud kitchen app'
